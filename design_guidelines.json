@@ -1,0 +1,87 @@
+{
+  "theme": "light",
+  "archetype": "Swiss & High-Contrast mixed with Corporate Trust",
+  "colors": {
+    "primary": "#0A2540",
+    "secondary": "#2EC4B6",
+    "background": "#FFFFFF",
+    "surface": "#F8FAFC",
+    "surfaceDark": "#0A2540",
+    "text": "#0F172A",
+    "textMuted": "#475569",
+    "border": "#E2E8F0"
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Clash Display, sans-serif",
+      "body": "Satoshi, sans-serif"
+    },
+    "font_imports": "@import url('https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@400,500,700&display=swap');",
+    "rules": {
+      "h1": "text-5xl md:text-6xl font-semibold tracking-tight text-[#0A2540]",
+      "h2": "text-3xl md:text-4xl font-semibold tracking-tight text-[#0A2540]",
+      "h3": "text-xl md:text-2xl font-medium text-[#0A2540]",
+      "body": "text-base text-[#475569] leading-relaxed",
+      "overline": "text-sm font-bold tracking-[0.2em] uppercase text-[#2EC4B6]"
+    }
+  },
+  "spacing_and_layout": {
+    "section_padding": "py-24 md:py-32",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "grid_gap": "gap-8 md:gap-12",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#2EC4B6] text-[#0A2540] font-semibold py-3 px-6 rounded-none border border-transparent hover:bg-[#20A89C] transition-colors focus:ring-2 focus:ring-[#2EC4B6] focus:ring-offset-2",
+      "secondary": "bg-transparent text-[#0A2540] font-semibold py-3 px-6 rounded-none border border-[#0A2540] hover:bg-[#0A2540] hover:text-white transition-all",
+      "dark": "bg-[#0A2540] text-white font-semibold py-3 px-6 rounded-none hover:bg-[#06182C] transition-colors"
+    },
+    "cards": {
+      "default": "bg-white border border-[#E2E8F0] p-8 transition-transform hover:-translate-y-1 hover:shadow-lg",
+      "dark": "bg-[#0A2540] border border-[#2EC4B6]/20 p-8 text-white"
+    },
+    "inputs": {
+      "default": "w-full border border-[#E2E8F0] bg-white px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#2EC4B6] focus:border-transparent text-[#0F172A]"
+    }
+  },
+  "sections_instructions": {
+    "Header": "Sticky, backdrop-blur-xl bg-white/90 border-b border-[#E2E8F0]. Include combined Droplets + Wrench lucide icons as logo. Desktop links and primary CTA. Mobile hamburger menu.",
+    "Hero": "Asymmetrical layout. Left: H1 '24/7 Emergency Plumbing in Brussels', Subtitle 'Fast. Reliable. Done Right the First Time.' CTAs, trust badges underneath. Right: Hero image (pexels-photo-33388390.jpeg) with slight offset background shape.",
+    "Services": "7 services. Use bento grid. 6 items as standard white cards with Teal Lucide icons. 7th item (span-2 or wide) as a dark emergency card with dark abstract texture bg.",
+    "Pricing": "Transparent pricing header. 3 columns. Center card highlighted with a 'Tracing Beam' inspired Teal border or solid Teal line on top.",
+    "Why Choose Us": "5 bullet points. Left column sticky text 'Why FlowFix?', Right column scrolling list. Numbers '01' to '05' in massive text-6xl text-[#E2E8F0] sitting behind the point text.",
+    "Testimonials": "3 customer reviews in a masonry or 3-col grid. Include avatar images and star ratings (lucide Star icon, filled Teal).",
+    "About Us": "Local Brussels company story. Grid with text on left, Brussels cityscape image on right. Subtle background color #F8FAFC.",
+    "Contact": "Two-col layout. Left: Contact form (Name, Phone, Email, Service dropdown, Message) using native HTML forms (styled). Formspree action commented out. Right: Contact details (Address, Phone, Email) styled like an invoice or control panel.",
+    "CTA Banner": "Full width dark blue abstract texture bg. Large 'Need a Plumber Now?' text. Call Now button.",
+    "Footer": "Deep blue bg #0A2540. 4 columns: Brand info, Quick Links, Services, Contact Info. Social icons."
+  },
+  "media": {
+    "images": {
+      "hero_plumber": "https://images.pexels.com/photos/33388390/pexels-photo-33388390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "hero_alternate": "https://images.unsplash.com/photo-1676210134190-3f2c0d5cf58d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBwbHVtYmVyJTIwYXQlMjB3b3JrfGVufDB8fHx8MTc3NTM0MDIwMXww&ixlib=rb-4.1.0&q=85",
+      "brussels_cityscape": "https://images.unsplash.com/photo-1726577488541-df4a070478e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwxfHxicnVzc2VscyUyMGNpdHlzY2FwZSUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3NzUzNDAyMDF8MA&ixlib=rb-4.1.0&q=85",
+      "dark_blue_texture": "https://images.unsplash.com/photo-1709990740117-0eb9358fbd24?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxkYXJrJTIwYmx1ZSUyMGFic3RyYWN0JTIwdGV4dHVyZXxlbnwwfHx8fDE3NzUzNDAyMTJ8MA&ixlib=rb-4.1.0&q=85",
+      "plumbing_tools": "https://images.unsplash.com/photo-1529836349180-223cd77d8cb6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwyfHxwbHVtYmluZyUyMHRvb2xzJTIwcGlwZSUyMHdyZW5jaHxlbnwwfHx8fDE3NzUzNDAyMTJ8MA&ixlib=rb-4.1.0&q=85"
+    },
+    "avatars": [
+      "https://images.unsplash.com/photo-1753161023792-d240af5e6ef7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGN1c3RvbWVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzc1MzQwMjAxfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1703759354715-17fcbeea4b66?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwzfHxoYXBweSUyMGN1c3RvbWVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzc1MzQwMjAxfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1616377230292-97f202692d74?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGhvbWVvd25lciUyMHBvcnRyYWl0fGVufDB8fHx8MTc3NTM0MDIwN3ww&ixlib=rb-4.1.0&q=85"
+    ],
+    "logos_and_badges": [
+      "https://images.unsplash.com/photo-1517488948216-e473cee81e23?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHx0cnVzdCUyMGJhZGdlJTIwbG9nb3xlbnwwfHx8fDE3NzUzNDAyMTN8MA&ixlib=rb-4.1.0&q=85"
+    ]
+  },
+  "animation_rules": {
+    "hero": "Framer motion initial={opacity:0, y:30} animate={opacity:1, y:0} transition={duration:0.6}",
+    "stagger": "List items should use staggerChildren for entry animations",
+    "interaction": "All buttons must have active:scale-95 transition"
+  },
+  "accessibility": {
+    "focus": "focus:ring-2 focus:ring-[#2EC4B6] focus:outline-none",
+    "contrast": "Text over dark backgrounds must be pure white #FFFFFF.",
+    "testing": "All interactive elements must include data-testid attributes."
+  }
+}
